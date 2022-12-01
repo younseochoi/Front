@@ -1,8 +1,14 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'neon';
+    src: url('font/Typo_CrayonM.ttf') format('truetype');
+}
 *{
 	outline: 0;
 	margin: 0;
 	padding: 0;
+	
+	
 }
 
 html{
@@ -11,13 +17,35 @@ html{
 }
 
 body{
-	width: 100%;
-	height: 100%;
-	background-color: #3de1f5;
+	width: 94.5%;
+	height: 90%;
+	background-color: #4A655A ;
 	position: relative;
+	border: 40px solid #ac7f2e;
+	box-shadow: 2px 3px 2px 2px #354438 inset;
+	font-family: 'neon';
+
 }
 
 canvas{
 	width: 100%;
 	height: 100%;
+}
+
+#text{
+	z-index: -1;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 4%;
+	color: white;
+	text-align: center;
+	font-size: 4rem;
+}
+
+#t1{
+color: #ebfbad;
+}
+#t2{
+	margin-top: 8%;
 }
